@@ -10,4 +10,12 @@
   .main_text {
     @apply dark:text-[#FFFFFF] text-[18px] mt-[40px];
   }
+
+  .technologies {
+    @apply h-[50px];
+  }
+
+  .headline {
+    @apply mt-[70px] font-bold text-[30px] dark:text-[#FFFFFF];
+  }
 }
