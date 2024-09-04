@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .screenshots {
+    @apply rounded-[20px] border-[#949494] border-[1px] p-[3px];
+  }
+
+  .main_text {
+    @apply dark:text-[#FFFFFF] text-[18px] mt-[40px];
+  }
+}
