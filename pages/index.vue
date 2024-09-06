@@ -1,23 +1,47 @@
 <script setup lang="ts">
-type Theme = 'light' | 'dark';
-
-const setColorTheme = (newTheme: Theme) => {
-    useColorMode().preference = newTheme
-}
+import Header from '~/components/Header.vue';
+import Technologies from '~/components/Technologies.vue';
+import MyWorks from '~/components/MyWorks.vue';
+import Contacts from '~/components/Contacts.vue';
 </script>
 
 <template>
-    <div class="h-screen dark:accent-slate-900">
-        <button class="ml-5" @click="setColorTheme($colorMode.preference == 'dark' ? 'light' : 'dark')">
-            <svg v-if="$colorMode.value == 'dark'" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-50"
-                viewBox="0 0 20 20" fill="currentColor">
-                <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
-            </svg>
-            <svg v-else xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd"
-                    d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
-                    clip-rule="evenodd" />
-            </svg>
-        </button>
+    <div class="h-full dark:bg-[#000000]">
+        <div class="max-w-[900px] mx-auto px-[50px]">
+            <Header />
+            <main>
+                <h2 class="main_text mt-[30px]">
+                    Меня зовут Валентин, и я являюсь frontend разработчиком. Моя основная специализация заключается в
+                    создании современных и функциональных веб-сайтов, а также мобильных приложений, которые помогают
+                    пользователям решать их задачи и улучшать взаимодействие с цифровыми продуктами.
+                </h2>
+
+                <MyWorks />
+
+                <h2 class="main_text">
+                    У меня есть опыт работы в стартапах, который составляет 1 год и 3 месяца. За это время
+                    я
+                    успел погрузиться в различные технологии и инструменты, которые применяются в сфере разработки. Я
+                    активно осваивал новые фреймворки и библиотеки, что позволило мне расширить свои навыки и улучшить
+                    качество создаваемых мной проектов.
+                </h2>
+
+                <Technologies />
+
+                <h2 class="main_text mt-[70px]">
+                    Каждый новый проект для меня — это возможность не только применить уже имеющиеся знания, но и
+                    научиться
+                    чему-то новому, что, безусловно, способствует моему профессиональному росту. Я стремлюсь к тому,
+                    чтобы
+                    мои разработки были не только эстетически привлекательными, но и удобными для пользователей.
+                </h2>
+
+                <Contacts />
+            </main>
+
+            <footer class="flex text-[14px] mt-[100px] justify-center pb-[20px] text-[#949494]">
+                © 2024
+            </footer>
+        </div>
     </div>
 </template>
