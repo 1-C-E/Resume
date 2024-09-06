@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="flex justify-between px-[80px]">
+    <div class="flex justify-between px-[50px]">
 
         <div class="contacts_2">
             <a href="https://t.me/svch_pech" class="contacts">
@@ -12,7 +12,7 @@
                         class="h-[30px] mr-[5px]" />
                     <NuxtImg src="/contacts/telegram-black.svg" v-else class="h-[30px] mr-[5px]" />
                 </figure>
-                <h2>Telegram</h2>
+                <h2>telegram</h2>
             </a>
         </div>
 
@@ -32,6 +32,15 @@
                 <NuxtImg src="/contacts/mail-white.svg" v-if="$colorMode.value == 'dark'" class="h-[30px] mr-[5px]" />
                 <NuxtImg src="/contacts/mail-black.svg" v-else class="h-[30px] mr-[5px]" />
                 <h2>gmail</h2>
+            </a>
+        </div>
+
+        <div class="contacts_2">
+            <a href="https://github.com/1-C-E?tab=repositories"
+                class="contacts">
+                <NuxtImg src="/contacts/git-white.svg" v-if="$colorMode.value == 'dark'" class="h-[30px] mr-[5px]" />
+                <NuxtImg src="/contacts/git-black.svg" v-else class="h-[30px] mr-[5px]" />
+                <h2>github</h2>
             </a>
         </div>
 

@@ -12,11 +12,7 @@ import { MapPin } from 'lucide-vue-next';
     <div class="flex justify-between pt-[70px]">
         <section class="flex">
             <div>
-                <!-- <NuxtImg src="/photo.png"
-                            class="h-[140px] rounded-[100px] p-[3px] border-[#64D98A] border-[3px]" /> -->
-                <NuxtImg src="/kast.png" v-if="$colorMode.value == 'dark'"
-                    class="max-h-[140px] rounded-[100px] p-[3px] border-[#64D98A] border-[3px]" />
-                <NuxtImg src="/photo.png" v-else
+                <NuxtImg src="/photo.png"
                     class="max-h-[140px] rounded-[100px] p-[3px] border-[#64D98A] border-[3px]" />
             </div>
 
