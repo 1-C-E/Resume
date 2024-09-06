@@ -8,7 +8,7 @@
   }
 
   .main_text {
-    @apply dark:text-[#FFFFFF] text-[18px] mt-[40px];
+    @apply text-[#949494] text-[18px] mt-[20px];
   }
 
   .technologies {
@@ -16,6 +16,14 @@
   }
 
   .headline {
-    @apply mt-[70px] font-bold text-[30px] dark:text-[#FFFFFF];
+    @apply mt-[150px] font-bold text-[30px] dark:text-[#FFFFFF];
+  }
+
+  .contacts {
+    @apply dark:text-[#FFFFFF] flex border-[1px] border-[#949494] rounded-[25px] pl-[8px] py-[8px] pr-[15px] max-w-[200px] mt-[70px] hover:bg-[#64D98A];
+  }
+
+  .contacts_2 {
+    @apply mt-[100px] hover:mt-[95px] ease-in duration-300;
   }
 }
