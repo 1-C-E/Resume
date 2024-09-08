@@ -1,14 +1,16 @@
 <script setup lang="ts">
 import Header from '~/components/Header.vue';
-import Technologies from '~/components/Technologies.vue';
 import MyWorks from '~/components/MyWorks.vue';
+import Technologies from '~/components/Technologies.vue';
 import Contacts from '~/components/Contacts.vue';
 </script>
 
 <template>
     <div class="h-full dark:bg-[#000000]">
         <div class="max-w-[900px] mx-auto px-[50px]">
+
             <Header />
+
             <main>
                 <h2 class="main_text mt-[30px]">
                     Меня зовут Валентин, и я являюсь frontend разработчиком. Моя основная специализация заключается в
@@ -42,6 +44,7 @@ import Contacts from '~/components/Contacts.vue';
             <footer class="flex text-[14px] mt-[100px] justify-center pb-[20px] text-[#949494]">
                 © 2024
             </footer>
+
         </div>
     </div>
 </template>

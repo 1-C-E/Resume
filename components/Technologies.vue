@@ -10,6 +10,7 @@ import { Wrench } from 'lucide-vue-next';
         </div>
 
         <section class="mt-[30px] ">
+
             <figure class="flex justify-center mt-[90px]">
                 <NuxtImg src="/technologies/tailwind-white.svg" v-if="$colorMode.value == 'dark'"
                     class="technologies" />
@@ -34,12 +35,13 @@ import { Wrench } from 'lucide-vue-next';
                         class="h-[38px]" />
                     <NuxtImg src="/technologies/next-black.svg" v-else class="h-[38px]" />
                 </figure>
-
             </div>
+
             <figure class="flex justify-center mt-[80px]">
-                <NuxtImg src="/technologies/figma-white.svg" v-if="$colorMode.value == 'dark'" class="h-[50px]" />
-                <NuxtImg src="/technologies/figma-black.svg" v-else class="h-[50px]" />
-            </figure>          
+                <NuxtImg src="/technologies/figma-white.svg" v-if="$colorMode.value == 'dark'" class="technologies" />
+                <NuxtImg src="/technologies/figma-black.svg" v-else class="technologies" />
+            </figure>
+                     
         </section>
     </div>
 </template>

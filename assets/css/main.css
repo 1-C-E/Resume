@@ -20,10 +20,6 @@
   }
 
   .contacts {
-    @apply dark:text-[#FFFFFF] flex border-[1px] border-[#949494] rounded-[25px] pl-[8px] py-[8px] pr-[15px] max-w-[200px] mt-[70px] hover:bg-[#64D98A];
-  }
-
-  .contacts_2 {
-    @apply mt-[100px] hover:mt-[95px] ease-in duration-300;
+    @apply mt-[100px] hover:mt-[95px] ease-in duration-300 dark:text-[#FFFFFF] flex border-[1px] border-[#949494] rounded-[25px] pl-[8px] py-[8px] pr-[15px] max-w-[200px] hover:bg-[#64D98A];
   }
 }
