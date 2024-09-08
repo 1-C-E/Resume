@@ -4,7 +4,11 @@
 
 @layer components {
   .screenshots {
-    @apply rounded-[20px] border-[#949494] border-[1px] p-[3px];
+    @apply rounded-[20px] border-[#949494] border-[1px] p-[3px] h-full;
+  }
+
+  .screenshots_2 {
+    @apply h-[150px] min-[384px]:h-[160px] min-[512px]:h-[230px] sm:h-[300px] md:h-[370px] lg:h-[440px] xl:h-[450px];
   }
 
   .main_text {
@@ -21,5 +25,9 @@
 
   .contacts {
     @apply mt-[100px] hover:mt-[95px] ease-in duration-300 dark:text-[#FFFFFF] flex border-[1px] border-[#949494] rounded-[25px] pl-[8px] py-[8px] pr-[15px] max-w-[200px] hover:bg-[#64D98A];
+  }
+
+  .contacts_mobile {
+    @apply mt-[30px] hover:mt-[95px] ease-in duration-300 dark:text-[#FFFFFF] flex border-[1px] border-[#949494] rounded-[25px] pl-[8px] py-[8px] pr-[15px] max-w-[200px] hover:bg-[#64D98A];
   }
 }
