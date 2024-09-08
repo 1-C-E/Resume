@@ -42,5 +42,4 @@ import { MapPin } from 'lucide-vue-next';
             </svg>
         </button>
     </div>
-
 </template>
