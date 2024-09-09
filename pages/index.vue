@@ -7,7 +7,7 @@ import Contacts from '~/components/Contacts.vue';
 
 <template>
     <div class="h-full dark:bg-[#000000]">
-        <div class="max-w-[900px] mx-auto px-[50px]">
+        <div class="max-w-[900px] mx-auto px-[30px] sm:px-[50px]">
 
             <Header />
 

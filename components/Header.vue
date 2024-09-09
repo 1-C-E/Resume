@@ -13,19 +13,19 @@ import { MapPin } from 'lucide-vue-next';
         <section class="flex">
             <div>
                 <NuxtImg src="/photo.png"
-                    class="max-h-[140px] rounded-[100px] p-[3px] border-[#64D98A] border-[3px] max-[]" />
+                    class="max-h-[140px] rounded-[100px] p-[3px] border-[#64D98A] border-[3px] max-[] max-[670px]:w-[70px]" />
             </div>
 
             <section class="ml-[30px]">
-                <h2 class="dark:text-[#FFFFFF] text-[40px] font-bold max-[670px]:text-[20px]">
+                <h2 class="dark:text-[#FFFFFF] text-[40px] font-bold max-[670px]:text-[18px]">
                     Валентин Питенев
                 </h2>
-                <h2 class="text-[#949494] text-[24px]">
+                <h2 class="text-[#949494] text-[24px] max-[670px]:text-[12px]">
                     frontend разработчик
                 </h2>
-                <div class="flex mt-[15px] dark:text-[#FFFFFF]">
-                    <MapPin :size="15" class="mt-[4px]" />
-                    <h2 class="text-[15px] ml-[3px]">Москва</h2>
+                <div class="flex mt-[5px] sm:mt-[15px] dark:text-[#FFFFFF]">
+                    <MapPin class="mt-[4px] size-[15px] max-[670px]:size-[10px]" />
+                    <h2 class="text-[15px] ml-[3px] max-[670px]:text-[10px]">Москва</h2>
                 </div>
             </section>
         </section>

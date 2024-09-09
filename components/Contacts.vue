@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="flex justify-between sm:px-[50px] max-[600px]:inline-grid max-[600px]:grid-cols-2">
+    <div class="flex min-[601px]:justify-between sm:px-[50px] max-[600px]:grid max-[600px]:grid-cols-2 gap-[10px]">
 
         <div>
             <a class="sm:contacts contacts_mobile" href="https://t.me/svch_pech">

@@ -11,17 +11,17 @@ import { Wrench } from 'lucide-vue-next';
 
         <section class="mt-[30px] ">
 
-            <figure class="flex justify-center mt-[90px]">
+            <figure class="flex justify-center sm:mt-[90px]">
                 <NuxtImg src="/technologies/tailwind-white.svg" v-if="$colorMode.value == 'dark'"
-                    class="technologies" />
-                <NuxtImg src="/technologies/tailwind-black.svg" v-else class="technologies" />
+                    class="tailwind" />
+                <NuxtImg src="/technologies/tailwind-black.svg" v-else class="tailwind" />
             </figure>
 
-            <div class="flex justify-between mt-[80px]">
+            <div class="flex justify-between gap-5 sm:mt-[80px]">
                 <figure class="mt-auto mb-[70px]">
                     <NuxtImg src="/technologies/nuxt-white.svg" v-if="$colorMode.value == 'dark'"
-                        class="technologies" />
-                    <NuxtImg src="/technologies/nuxt-black.svg" v-else class="technologies" />
+                        class="technologies h-[40px]" />
+                    <NuxtImg src="/technologies/nuxt-black.svg" v-else class="technologies h-[40px]" />
                 </figure>
 
                 <figure>
@@ -32,8 +32,8 @@ import { Wrench } from 'lucide-vue-next';
 
                 <figure class="mt-auto mb-[70px]">
                     <NuxtImg src="/technologies/next-white.svg" v-if="$colorMode.value == 'dark'"
-                        class="h-[38px]" />
-                    <NuxtImg src="/technologies/next-black.svg" v-else class="h-[38px]" />
+                        class="ms:h-[38px] h-[20px]" />
+                    <NuxtImg src="/technologies/next-black.svg" v-else class="ms:h-[20px] h-[28px]" />
                 </figure>
             </div>
 
