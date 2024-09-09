@@ -15,10 +15,6 @@
     @apply text-[#949494] text-[14px] sm:text-[18px] mt-[20px];
   }
 
-  .technologies {
-    @apply sm:h-[50px];
-  }
-
   .headline {
     @apply mt-[60px] sm:mt-[150px] font-bold text-[30px] dark:text-[#FFFFFF];
   }
@@ -32,6 +28,22 @@
   }
 
   .tailwind {
-    @apply sm:h-[50px] h-[20px];
+    @apply sm:h-[50px] h-[24px] min-[384px]:h-[22px] min-[512px]:h-[35px] sm:h-[40px] md:h-[50px];
+  }
+
+  .nuxt {
+    @apply h-[50px];
+  }
+
+  .react_native {
+    @apply h-[150px] ;
+  }
+
+  .next {
+    @apply h-[38px];
+  }
+
+  .figma {
+    @apply sm:h-[50px] h-[24px] min-[384px]:h-[25px] min-[512px]:h-[35px] sm:h-[40px] md:h-[50px];
   }
 }

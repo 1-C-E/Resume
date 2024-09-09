@@ -17,29 +17,29 @@ import { Wrench } from 'lucide-vue-next';
                 <NuxtImg src="/technologies/tailwind-black.svg" v-else class="tailwind" />
             </figure>
 
-            <div class="flex justify-between gap-5 sm:mt-[80px]">
-                <figure class="mt-auto mb-[70px]">
+            <div class="flex justify-between gap-10 min-[512px]:mt-[25px] sm:mt-[80px]">
+                <figure class="mt-auto mb-[58px] min-[512px]:mb-[70px]">
                     <NuxtImg src="/technologies/nuxt-white.svg" v-if="$colorMode.value == 'dark'"
-                        class="technologies h-[40px]" />
-                    <NuxtImg src="/technologies/nuxt-black.svg" v-else class="technologies h-[40px]" />
+                        class="nuxt" />
+                    <NuxtImg src="/technologies/nuxt-black.svg" v-else class="nuxt" />
                 </figure>
 
                 <figure>
                     <NuxtImg src="/technologies/react-native-white.svg" v-if="$colorMode.value == 'dark'"
-                        class="h-[150px]" />
-                    <NuxtImg src="/technologies/react-native-black.svg" v-else class="h-[150px]" />
+                        class="react_native" />
+                    <NuxtImg src="/technologies/react-native-black.svg" v-else class="react_native" />
                 </figure>
 
-                <figure class="mt-auto mb-[70px]">
+                <figure class="mt-auto mb-[60px] min-[512px]:mb-[70px]">
                     <NuxtImg src="/technologies/next-white.svg" v-if="$colorMode.value == 'dark'"
-                        class="ms:h-[38px] h-[20px]" />
-                    <NuxtImg src="/technologies/next-black.svg" v-else class="ms:h-[20px] h-[28px]" />
+                        class="next" />
+                    <NuxtImg src="/technologies/next-black.svg" v-else class="next" />
                 </figure>
             </div>
 
-            <figure class="flex justify-center mt-[80px]">
-                <NuxtImg src="/technologies/figma-white.svg" v-if="$colorMode.value == 'dark'" class="technologies" />
-                <NuxtImg src="/technologies/figma-black.svg" v-else class="technologies" />
+            <figure class="flex justify-center min-[512px]:mt-[25px] sm:mt-[80px]">
+                <NuxtImg src="/technologies/figma-white.svg" v-if="$colorMode.value == 'dark'" class="figma" />
+                <NuxtImg src="/technologies/figma-black.svg" v-else class="figma" />
             </figure>
                      
         </section>
