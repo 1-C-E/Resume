@@ -1,12 +1,15 @@
 <script setup lang="ts">
-import { BriefcaseBusiness } from 'lucide-vue-next';
+import { BriefcaseBusiness, MoveRight, Minus } from 'lucide-vue-next';
 </script>
 
 <template>
     <div>
         <div class="headline flex">
-            <BriefcaseBusiness class="my-auto mr-[10px]" :size="28" />
+            <BriefcaseBusiness class="headline_img" />
             <h2>Мои работы</h2>
+            <Minus class="headline_arrow ml-[40px]" />
+            <Minus class="headline_arrow" />
+            <MoveRight class="headline_arrow ml-[4px]" />
         </div>
 
         <section class="flex overflow-x-auto overflow-x: scroll-smooth no-scrollbar space-x-[80px] w-full mt-[20px]">
