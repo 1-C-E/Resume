@@ -3,22 +3,10 @@
 @tailwind utilities;
 
 @layer components {
-  .screenshots {
-    @apply rounded-[12px] min-[512px]:rounded-[20px] border-[#949494] border-[1px] p-[3px] h-full;
-  }
-
-  .screenshots_2 {
-    @apply h-[150px] min-[384px]:h-[160px] min-[512px]:h-[230px] sm:h-[300px] md:h-[370px] lg:h-[440px] xl:h-[450px];
-  }
-
-  .main_text {
-    @apply text-[#949494] text-[12px] sm:text-[18px] mt-[20px];
-  }
-
   .headline {
     @apply mt-[60px] sm:mt-[120px] font-bold text-[14px] min-[384px]:text-[18px] min-[512px]:text-[25px] sm:text-[30px] dark:text-[#FFFFFF];
   }
-
+  
   .headline_img {
     @apply my-auto mr-[10px] size-[20px] min-[512px]:size-[28px];
   }
@@ -27,12 +15,16 @@
     @apply my-auto sm:size-[30px];
   }
 
-  .contacts {
-    @apply mt-[100px] hover:mt-[95px] ease-in duration-300 dark:text-[#FFFFFF] flex border-[1px] border-[#949494] rounded-[25px] pl-[8px] py-[8px] pr-[15px] max-w-[200px] hover:bg-[#64D98A];
+  .main_text {
+    @apply text-[#949494] text-[12px] sm:text-[18px] mt-[20px];
   }
 
-  .contacts_mobile {
-    @apply mt-[30px] hover:mt-[25px] ease-in duration-300 dark:text-[#FFFFFF] flex border-[1px] border-[#949494] rounded-[25px] pl-[8px] py-[8px] pr-[15px] max-w-[200px] hover:bg-[#64D98A];
+  .screenshots {
+    @apply rounded-[12px] min-[512px]:rounded-[20px] border-[#949494] border-[1px] p-[3px] h-full;
+  }
+
+  .screenshots_2 {
+    @apply h-[150px] min-[384px]:h-[160px] min-[512px]:h-[230px] sm:h-[300px] md:h-[370px] lg:h-[440px] xl:h-[450px];
   }
 
   .tailwind {
@@ -53,5 +45,13 @@
 
   .figma {
     @apply sm:h-[50px] h-[24px] min-[384px]:h-[25px] min-[512px]:h-[35px] sm:h-[40px] md:h-[50px];
+  }
+
+  .contacts {
+    @apply mt-[100px] hover:mt-[95px] ease-in duration-300 dark:text-[#FFFFFF] flex border-[1px] border-[#949494] rounded-[25px] pl-[8px] py-[8px] pr-[15px] max-w-[200px] hover:bg-[#64D98A];
+  }
+
+  .contacts_mobile {
+    @apply mt-[30px] hover:mt-[25px] ease-in duration-300 dark:text-[#FFFFFF] flex border-[1px] border-[#949494] rounded-[25px] pl-[8px] py-[8px] pr-[15px] max-w-[200px] hover:bg-[#64D98A];
   }
 }
