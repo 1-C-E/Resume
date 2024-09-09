@@ -6,7 +6,7 @@
   .headline {
     @apply mt-[60px] sm:mt-[120px] font-bold text-[14px] min-[384px]:text-[18px] min-[512px]:text-[25px] sm:text-[30px] dark:text-[#FFFFFF];
   }
-  
+
   .headline_img {
     @apply my-auto mr-[10px] size-[20px] min-[512px]:size-[28px];
   }
@@ -48,10 +48,14 @@
   }
 
   .contacts {
-    @apply mt-[100px] hover:mt-[95px] ease-in duration-300 dark:text-[#FFFFFF] flex border-[1px] border-[#949494] rounded-[25px] pl-[8px] py-[8px] pr-[15px] max-w-[200px] hover:bg-[#64D98A];
+    @apply mt-[40px] hover:mt-[35px] min-[601px]:mt-[100px] min-[601px]:hover:mt-[95px] ease-in duration-300 dark:text-[#FFFFFF] flex border-[1px] border-[#949494] rounded-[25px] pl-[8px] py-[8px] pr-[15px] max-w-[200px] hover:bg-[#64D98A];
   }
 
-  .contacts_mobile {
-    @apply mt-[30px] hover:mt-[25px] ease-in duration-300 dark:text-[#FFFFFF] flex border-[1px] border-[#949494] rounded-[25px] pl-[8px] py-[8px] pr-[15px] max-w-[200px] hover:bg-[#64D98A];
+  .contacts_img {
+    @apply h-[30px] mr-[8px];
+  }
+
+  .contacts_name {
+    @apply my-auto;
   }
 }
